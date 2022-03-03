@@ -1,0 +1,180 @@
+ @font-face{
+     font-family: "wood";
+     src: url("fonte/burnstown_dam.otf");
+ }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    color:#3f4254;
+    font-family: 'karla';
+
+}
+.container{
+    position: absolute;;
+    width: 100%;
+    height: 1000px;
+    margin-top: 80px;
+}
+header{
+    z-index: 5;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    position: fixed;
+    display: flex;
+}
+nav{
+    display: flex;
+    width: 100%;
+    font-family: "wood";
+
+}
+
+
+header img{
+    margin: -15px 15px 0 -15px;
+}
+
+nav li{
+    list-style: none;
+    display: inline-block;
+}
+
+.menu-text a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+
+.menu-text a{    
+    font-size: 40px;
+    color: brown;
+    text-decoration: none;
+    padding: 20px;
+    vertical-align: middle;
+}
+
+.menu-icon{
+    position: absolute;
+    padding: 20px;
+    right: 5px;
+}
+
+.menu-icon a {
+    align-items: center;
+    margin: 10px;
+}
+
+.banner{
+    width: 100%;
+    height: 550px;
+    background-image: url("images/banner/banner1.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100% 100%;
+}
+
+.arrow_left{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-left: rgba(255, 255, 255, 0.5) 5px solid;
+    border-bottom: rgba(255, 255, 255, 0.5) 5px solid;
+    transform: skew(5deg) rotate(45deg);
+    top:250px;
+    left: 50px;    
+    cursor: pointer;
+}
+
+.arrow_rigth{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-top:  rgba(255, 255, 255, 0.5) 5px solid;
+    border-right: rgba(255, 255, 255, 0.5) 5px solid;
+    transform: skew(5deg) rotate(45deg);
+    top:250px;
+    right: 50px;    
+    cursor: pointer;
+}
+
+h1{
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+p{
+    width: 90%;
+    margin: auto;
+    max-width: 800px;
+}
+
+.banner{
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.banner-text h3{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.banner-text p{
+    font-size: 22px;
+    line-height: 1.8;
+    font-weight: 300;
+}
+.banner-text{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    padding: 10% 15%;
+}
+
+.midia{
+    display: flex;
+    margin: 100px 0;
+}
+
+.midia article{
+    background-image: url("images/banner/banner1.jpg");
+    width: 50%;
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    padding: 130px;
+    font-size: 26px;
+    line-height: 44px;
+}
+
+.midia article div{
+    border: 1px solid white;
+    padding: 5px;
+}
+
+.midia article div:hover{
+    background-color: white;
+    color: black;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+
+
+
